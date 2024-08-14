@@ -13,8 +13,10 @@ struct ContentView: View {
       Image(systemName: "heart.fill")
         .font(.largeTitle)
         .foregroundStyle(.tint)
-      Text("Rafrænar Lausnir!")
+      Text("Rafrænar Lausnir")
         .font(.title)
+      Text("Rafrænt handa öllum!")
+        .font(.headline)
     }
     .padding()
   }
