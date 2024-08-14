@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Logo Icon_Logo Icon_Gr.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

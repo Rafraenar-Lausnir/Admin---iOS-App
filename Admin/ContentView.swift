@@ -10,9 +10,9 @@ import SwiftUI
 struct ContentView: View {
   var body: some View {
     VStack {
-      Image(systemName: "heart.fill")
-        .font(.largeTitle)
-        .foregroundStyle(.tint)
+      Image("Logo_Icon")
+        .resizable()
+        .frame(width: 150, height: 150)
       Text("Rafrænar Lausnir")
         .font(.title)
       Text("Rafrænt handa öllum!")
