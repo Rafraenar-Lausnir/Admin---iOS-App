@@ -15,10 +15,16 @@ struct ContentView: View {
         .frame(width: 150, height: 150)
       Text("Rafrænar Lausnir")
         .font(.title)
+        .foregroundStyle(Color("text_color"))
       Text("Rafrænt handa öllum!")
         .font(.headline)
+        .foregroundStyle(Color("text_color"))
     }
     .padding()
+    .frame(maxWidth: .infinity, maxHeight: .infinity)
+    .background(
+      Color("bg_color")
+    )
   }
 }
 
