@@ -9,9 +9,18 @@ import SwiftUI
 
 @main
 struct AdminApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+
+  @State private var isLoggedIn: Bool = false
+
+  var body: some Scene {
+    WindowGroup {
+      if isLoggedIn {
+        HomeView()
+          .transition(.move(edge: .trailing))
+      } else {
+        ContentView()
+          .transition(.move(edge: .leading))
+      }
     }
+  }
 }
