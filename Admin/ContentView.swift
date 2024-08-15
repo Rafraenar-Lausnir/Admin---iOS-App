@@ -26,13 +26,7 @@ struct ContentView: View {
         NavigationLink {
           // Authentication screen
         } label: {
-          Text("Skrá inn")
-            .padding()
-            .padding(.horizontal)
-            .foregroundStyle(Color("bg_color"))
-            .bold()
-            .background(Color("text_color"))
-            .clipShape(RoundedRectangle(cornerRadius: 10))
+          Button(label: "Skrá inn")
         }
 
       }
