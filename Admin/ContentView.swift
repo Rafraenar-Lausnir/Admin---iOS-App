@@ -24,7 +24,7 @@ struct ContentView: View {
         Spacer()
 
         NavigationLink {
-          // Authentication screen
+          LoginView()
         } label: {
           Text("Skrá inn")
             .padding()

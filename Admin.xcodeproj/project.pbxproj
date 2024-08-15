@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8501224D2C6E575900B46EB1 /* FirebaseAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8501224C2C6E575900B46EB1 /* FirebaseAuthManager.swift */; };
 		850122522C6E61F400B46EB1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 850122512C6E61F400B46EB1 /* GoogleService-Info.plist */; };
+		850122502C6E604F00B46EB1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8501224F2C6E604F00B46EB1 /* LoginView.swift */; };
 		853B13192C6D15A400D53F3B /* AdminApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853B13182C6D15A400D53F3B /* AdminApp.swift */; };
 		853B131B2C6D15A400D53F3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853B131A2C6D15A400D53F3B /* ContentView.swift */; };
 		853B131D2C6D15A500D53F3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 853B131C2C6D15A500D53F3B /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		8501224C2C6E575900B46EB1 /* FirebaseAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthManager.swift; sourceTree = "<group>"; };
 		850122512C6E61F400B46EB1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8501224F2C6E604F00B46EB1 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		853B13152C6D15A400D53F3B /* Admin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Admin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		853B13182C6D15A400D53F3B /* AdminApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminApp.swift; sourceTree = "<group>"; };
 		853B131A2C6D15A400D53F3B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +50,14 @@
 			path = Managers;
 			sourceTree = "<group>";
 		};
+		8501224E2C6E603D00B46EB1 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				8501224F2C6E604F00B46EB1 /* LoginView.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
 		853B130C2C6D15A400D53F3B = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +77,7 @@
 		853B13172C6D15A400D53F3B /* Admin */ = {
 			isa = PBXGroup;
 			children = (
+				8501224E2C6E603D00B46EB1 /* Authentication */,
 				8501224B2C6E570B00B46EB1 /* Managers */,
 				853B13182C6D15A400D53F3B /* AdminApp.swift */,
 				853B131A2C6D15A400D53F3B /* ContentView.swift */,
@@ -165,6 +176,7 @@
 			files = (
 				8501224D2C6E575900B46EB1 /* FirebaseAuthManager.swift in Sources */,
 				853B131B2C6D15A400D53F3B /* ContentView.swift in Sources */,
+				850122502C6E604F00B46EB1 /* LoginView.swift in Sources */,
 				853B13192C6D15A400D53F3B /* AdminApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
